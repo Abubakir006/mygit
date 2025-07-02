@@ -9,3 +9,14 @@ people = [
 def sort_people_by_age(people: list[dict]) -> list[dict]:
     return sorted(people, key=lambda person: person["age"])
 print(sort_people_by_age(people))
+
+def fill(name, age):
+    return name, age
+
+print(fill('f',27))
+
+
+
+
+
+
